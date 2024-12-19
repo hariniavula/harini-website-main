@@ -296,6 +296,23 @@ body {
     color: #ff6680; /* Lighter pink hover effect */
   }
 
+	.projects-section {
+		padding: 20px;
+		margin-top: 15px;
+		margin-left: 30px;
+		margin-right: 30px;
+	
+	  }
+      .projects-section h2 {
+		font-size: 1.8rem;
+		font-weight: 300px;
+		margin-bottom: 40px;
+	  }
+	
+	.project-card {
+		width: 80%; /* Full-width cards on smaller screens */
+	  }
+
   .footer-line {
     border: none;
     border-top: 1px solid #ccc;
@@ -337,6 +354,8 @@ body {
     .projects-section p {
         font-size: 1rem;
     }
+
+
 }
 
   .footer-icons {
