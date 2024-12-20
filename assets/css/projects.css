@@ -53,7 +53,7 @@ body {
 .logo-container {
 	display: flex;
 	align-items: center;
-	margin-left: 70px;
+	margin-left: 55px;
 
 }
 
@@ -477,7 +477,6 @@ body {
 	  .navbar {
 	  position: fixed; /* Keep the navbar fixed at the top */
 	  top: 0;
-	  left: 0;
 	  width: 100%;
 	  background-color: #ffffff;
 	  z-index: 101; /* Ensure it appears above the dropdown */
@@ -485,33 +484,33 @@ body {
 	}
 
 	.nav-links {
-	  display: none; /* Initially hidden */
-	  flex-direction: column;
-	  justify-content: flex-start;
-	  align-items: center;
-	  position: fixed; /* Cover the screen below the navbar */
-	  top: 70px; /* Push down below the navbar height */
-	  left: 0;
-	  width: 100%;
-	  margin-top: 40px;
-	  height: calc(100% - 70px); /* Take the remaining height */
-	  background-color: #ffffff;
-	  z-index: 100; /* Below the navbar */
-	  overflow-y: auto; /* Allow scrolling if content exceeds screen height */
-	}
-  
-	.nav-links.active {
-	  display: flex; /* Show the menu when active */
-	}
-  
-	.nav-links li {
-	  width: 100%; /* Take up full width */
-	  text-align: left;
-	  padding-left: 30px; /* Add spacing */
-	  padding-bottom: 20px;
-	  border-bottom: 1px solid #e0e0e0; /* Separator */
-	}
-  
+		display: none; /* Initially hidden */
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		position: fixed; /* Cover the screen below the navbar */
+		top: 70px; /* Push down below the navbar height */
+		left: 0;
+		width: 100%;
+		margin-top: 70px;
+		height: calc(100% - 70px); /* Take the remaining height */
+		background-color: #ffffff;
+		z-index: 100; /* Below the navbar */
+		overflow-y: auto; /* Allow scrolling if content exceeds screen height */
+	  }
+	
+	  .nav-links.active {
+		display: flex; /* Show the menu when active */
+	  }
+	
+	  .nav-links li {
+		width: 100%; /* Take up full width */
+		text-align: left;
+		padding-bottom: 30px;
+		padding-left: 30px; /* Add spacing */
+		border-bottom: 1px solid #e0e0e0; /* Separator */
+	  }
+	  
 	.nav-links li:last-child {
 	  border-bottom: none; /* Remove the last separator */
 	}
@@ -562,14 +561,16 @@ body {
 		margin-left: 0px;
 
 	  }
- 
-  
 
+	  .logo-container {
+		display: flex;
+		align-items: center;
+		margin-left: 10px;
 	
-	 
-	
+
 
   }
+}
 	
 
   /* Responsive styles for mobile */
